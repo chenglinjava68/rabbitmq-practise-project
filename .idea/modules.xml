@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-exchange-model/rabbit-exchange-model.iml" filepath="$PROJECT_DIR$/rabbit-exchange-model/rabbit-exchange-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-ack-model/rabbitmq-ack-model.iml" filepath="$PROJECT_DIR$/rabbitmq-ack-model/rabbitmq-ack-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-basic/rabbitmq-basic.iml" filepath="$PROJECT_DIR$/rabbitmq-basic/rabbitmq-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-dead-queue/rabbitmq-dead-queue.iml" filepath="$PROJECT_DIR$/rabbitmq-dead-queue/rabbitmq-dead-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-delayqueue/rabbitmq-delayqueue.iml" filepath="$PROJECT_DIR$/rabbitmq-delayqueue/rabbitmq-delayqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-practise-project.iml" filepath="$PROJECT_DIR$/rabbitmq-practise-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-priority-queue/rabbitmq-priority-queue.iml" filepath="$PROJECT_DIR$/rabbitmq-priority-queue/rabbitmq-priority-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-retry/rabbitmq-retry.iml" filepath="$PROJECT_DIR$/rabbitmq-retry/rabbitmq-retry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-event/spring-event.iml" filepath="$PROJECT_DIR$/spring-event/spring-event.iml" />
+    </modules>
+  </component>
+</project>

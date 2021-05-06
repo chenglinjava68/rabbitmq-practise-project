@@ -1,0 +1,8 @@
+server:
+  port: 8085
+spring:
+  rabbitmq:
+    host: 81.70.90.253
+    port: 5672
+    username: root
+    password: modnim666666

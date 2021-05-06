@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96e911ab-79cb-4712-8904-00959edb80a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/main/java/com/hualala/supplychain/controller/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/main/java/com/hualala/supplychain/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/main/java/com/hualala/supplychain/controller/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/JuintGuava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/JunitConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/JunitGuavaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/JunitGuavaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/java/com/hualala/supplychain/hualalaelk/junit/JunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hualala-elk/src/test/logstash-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/util/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/util/StrFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hualala/core/vo/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/topic/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/topic/TopicPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/auto/AutoAckConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/auto/AutoAckPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/controller/AckModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-basic/src/main/java/com/hualala/rabbitmqbasic/biz/BasicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-basic/src/main/java/com/hualala/rabbitmqbasic/biz/BasicPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-basic/src/main/java/com/hualala/rabbitmqbasic/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-basic/src/main/java/com/hualala/rabbitmqbasic/controller/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueueConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePreConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/controller/DeadQueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/biz/DelayQueueConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/biz/DelayQueuePublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-priority-queue/src/main/java/com/hualala/rabbitmqpriorityqueue/biz/PriorityConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-priority-queue/src/main/java/com/hualala/rabbitmqpriorityqueue/biz/PriorityPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-priority-queue/src/main/java/com/hualala/rabbitmqpriorityqueue/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-priority-queue/src/main/java/com/hualala/rabbitmqpriorityqueue/controller/PriorityQueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller/RabbitMqController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-event/src/main/java/com/hualala/springevent/controller/SpringEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-event/src/main/java/com/hualala/springevent/service/EventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-event/src/main/java/com/hualala/springevent/service/EventPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-event/src/main/java/com/hualala/springevent/service/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5projectdemo-master/spring5projectdemo-master/chapter3/src/main/java/com/test/jdkdynamicproxy/Nature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/router-interface/src/main/proto/router/routerService.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-api/src/main/java/com/hualala/config/BaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-api/src/main/java/com/hualala/config/BasicClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-api/src/main/java/com/hualala/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-api/src/main/resources/application-dohko.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-service/src/main/resources/application-dohko.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-service/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../supplychain-routing-parent/supplychain-esrouter-service/src/test/java/com/hualala/RouterServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qkmGQgZR47ONoFz68ESKSLIzwO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hualala.rabbitmqretry.biz" />
+      <recent name="com.hualala.rabbitmqretry.config" />
+      <recent name="com.hualala.rabbitmqdeadqueue.controller" />
+      <recent name="com.hualala.rabbitmqdeadqueue.config" />
+      <recent name="com.hualala.rabbitmqdelayqueue.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hualala\rabbitmq-practise-project\rabbitmq-retry\src\main\java\com\hualala\rabbitmqretry\controller" />
+      <recent name="E:\hualala\rabbitmq-practise-project\rabbitmq-dead-queue\src\main\java\com\hualala\rabbitmqdeadqueue\biz" />
+      <recent name="E:\hualala\rabbitmq-practise-project\rabbitmq-delayqueue\src\main\java\com\hualala\rabbitmqdelayqueue\biz" />
+      <recent name="E:\hualala\rabbitmq-practise-project\rabbitmq-delayqueue\src\main\java\com\hualala\rabbitmqdelayqueue\config" />
+      <recent name="E:\hualala\rabbitmq-practise-project\rabbit-exchange-model\src\main\java\com\hualala\rabbitexchangemodel\biz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RabbitmqRetryApplication">
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitExchangeModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-exchange-model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitexchangemodel.RabbitExchangeModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqAckModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-ack-model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqackmodel.RabbitmqAckModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqBasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-basic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqbasic.RabbitmqBasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDeadQueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-dead-queue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqdeadqueue.RabbitmqDeadQueueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDelayqueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-delayqueue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqdelayqueue.RabbitmqDelayqueueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqPractiseProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-practise-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqpractiseproject.RabbitmqPractiseProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqPriorityQueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-priority-queue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqpriorityqueue.RabbitmqPriorityQueueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqRetryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-retry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.rabbitmqretry.RabbitmqRetryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-event" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hualala.springevent.SpringEventApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96e911ab-79cb-4712-8904-00959edb80a7" name="Default Changelist" comment="" />
+      <created>1617631865974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617631865974</updated>
+      <workItem from="1617631869643" duration="538000" />
+      <workItem from="1617632421620" duration="6656000" />
+      <workItem from="1617680688417" duration="228000" />
+      <workItem from="1617680946672" duration="34444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1617783686570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1617783686570" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1617701140206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1617701140206" />
+    <state x="186" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617808197462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="186" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1617808197462" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617631883242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617631883242" />
+    <state x="524" y="118" key="#xdebugger.evaluate" timestamp="1617702099105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="118" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1617702099105" />
+    <state width="450" height="444" key="DebuggerActiveHint" timestamp="1617787276520">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="450" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1617787276520" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1617680912859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617680912859" />
+    <state width="1493" height="377" key="GridCell.Tab.0.bottom" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.0.center" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.0.left" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.0.right" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.1.bottom" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.1.center" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.1.left" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.1.right" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1617852378650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1617852378650" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1617681415167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617681415167" />
+    <state x="178" y="73" key="new project wizard" timestamp="1617807586639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617807586639" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1617804661256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1617804661256" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617701765605">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617701765605" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckConsumer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckConsumer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckConsumer.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/manual/ManualAckConsumer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-ack-model/src/main/java/com/hualala/rabbitmqackmodel/biz/auto/AutoAckConsumer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar!/org/springframework/retry/interceptor/StatefulRetryOperationsInterceptor.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar!/org/springframework/retry/interceptor/StatefulRetryOperationsInterceptor.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar!/org/springframework/retry/interceptor/StatefulRetryOperationsInterceptor.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar!/org/springframework/retry/support/RetrySimulator.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.11.RELEASE/spring-rabbit-2.2.11.RELEASE-sources.jar!/org/springframework/amqp/rabbit/retry/RepublishMessageRecoverer.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.11.RELEASE/spring-rabbit-2.2.11.RELEASE-sources.jar!/org/springframework/amqp/rabbit/retry/RepublishMessageRecoverer.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.11.RELEASE/spring-rabbit-2.2.11.RELEASE-sources.jar!/org/springframework/amqp/rabbit/retry/RepublishMessageRecoverer.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/controller/ExchangeModelController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutConsumer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutConsumer.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectPublish.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectPublish.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectConsumer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/direct/DirectConsumer.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutPublish.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/fanout/FanoutPublish.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/topic/TopicConsumer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/topic/TopicConsumer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-exchange-model/src/main/java/com/hualala/rabbitexchangemodel/biz/topic/TopicConsumer.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/biz/DelayQueueConsumer.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/biz/DelayQueueConsumer.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePublish.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePreConsumer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePreConsumer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePreConsumer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueueConsumer.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueueConsumer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueuePublish.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/controller/DeadQueueController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/controller/DeadQueueController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-dead-queue/src/main/java/com/hualala/rabbitmqdeadqueue/biz/DeadQueueConsumer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller/RabbitMqController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller/RabbitMqController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqPublish.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqPublish.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller/RabbitMqController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/controller/RabbitMqController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqConsumer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-retry/src/main/java/com/hualala/rabbitmqretry/biz/RabbitMqConsumer.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/rabbitmq-delayqueue/src/main/java/com/hualala/rabbitmqdelayqueue/controller/DelayQueueController.java</url>
+          <line>20</line>
+          <properties class="com.hualala.rabbitmqdelayqueue.controller.DelayQueueController" method="delayQueuePublish">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
